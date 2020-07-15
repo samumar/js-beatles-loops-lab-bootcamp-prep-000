@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   let strings = [];
-  function incrementVariable(i) {
+  function incrementVariable() {
     i = i + 1;
   }
   do {
