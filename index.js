@@ -22,11 +22,10 @@ function iLoveTheBeatles(number) {
   let strings = [];
   function incrementVariable(i) {
     i = i + 1;
-    return i;
   }
   do {
     strings.push("I love the Beatles!");
-    number++;
+    incrementVariable(number);
   } while (number < 15);
   return strings
 }
