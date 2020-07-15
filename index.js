@@ -19,7 +19,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
-  strings = [];
+  let strings = [];
   function incrementVariable(i) {
     i = i + 1;
     return i;
