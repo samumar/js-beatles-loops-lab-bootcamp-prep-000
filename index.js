@@ -25,7 +25,7 @@ function iLoveTheBeatles(number) {
   }
   do {
     strings.push("I love the Beatles!");
-    incrementVariable(number);
+    incrementVariable();
   } while (number < 15);
   return strings
 }
