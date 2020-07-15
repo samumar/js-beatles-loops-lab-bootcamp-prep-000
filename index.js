@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   facts = [];
   let i = 0;
   while (i < facts.length) {
-    facts.push(&#96;${facts[i]} !!!`);
+    facts.push(&#96;${facts[i]} !!!&);
     return facts
   }
 }
