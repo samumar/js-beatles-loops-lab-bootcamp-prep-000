@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(number) {
   let strings = [];
   function incrementVariable() {
-    i = i + 1;
+   number++ ;
   }
   do {
     strings.push("I love the Beatles!");
